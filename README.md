@@ -30,7 +30,9 @@ ICA modes were obtained using:
 Higuera A.A.F, Garcia R.A.B., and Bermudez R.V.G. Python version of infomax independent component analysis. https:// github.com/alvarouc/ica/, 2015–2016.
 
 #Dataset
+```matlab
 18stim_benchmark.mat
+```
 
 #Run  
   
