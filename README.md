@@ -3,7 +3,6 @@ Classification of Fixed Point Network Dynamics From Multiple Node Timeseries Dat
 
 The repository includes: 
 * Benchmark dataset for supervised classification of FP network dynamics (recorded from antennal lobe - olfactory network)
-  (18stim_benchmark.mat)
 * Code implementing classification and recognition using Exclusive Threshold Reduction and Optimal Exclusive Threshold Reduction
   
 Please refer to:  
@@ -29,3 +28,17 @@ cvx_solver sdpt3
 ICA modes were obtained using:  
   
 Higuera A.A.F, Garcia R.A.B., and Bermudez R.V.G. Python version of infomax independent component analysis. https:// github.com/alvarouc/ica/, 2015–2016.
+
+#Dataset
+18stim_benchmark.mat
+
+#Run  
+  
+For classification space and classifier run:  
+```matlab
+runClassification  
+```
+For recognition run:  
+```matlab
+runClassification_recognition
+```
